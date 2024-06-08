@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
  subgraph release-bom.json["release-bom.json"]
     direction TB
@@ -53,3 +54,4 @@ flowchart LR
     NexusRelease --Deploy-->PROD
     NexusRelease --Deploy-->CONT
     NexusRelease --Deploy-->CLVE
+```
