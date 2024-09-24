@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
  subgraph subgraph["CD Pipeline "]
     subgraph release-bom.json["release-bom.json"]
@@ -92,4 +93,4 @@ flowchart LR
     TFE-RUN --Deploy-->ACNT
     TFE-RUN --Deploy-->PROD
     TFE-RUN --Deploy-->CONT
-    
+```    
